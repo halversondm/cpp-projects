@@ -1,0 +1,43 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: TextEditor - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\DANIEL~1\LOCALS~1\Temp\RSP37.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/TextEditor.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Documents and Settings\Daniel Halverson\My Documents\My Projects\TextEditor\TextEditor.cpp"
+"C:\Documents and Settings\Daniel Halverson\My Documents\My Projects\TextEditor\TextEditorDoc.cpp"
+"C:\Documents and Settings\Daniel Halverson\My Documents\My Projects\TextEditor\TextEditorView.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\DANIEL~1\LOCALS~1\Temp\RSP37.tmp" 
+Creating temporary file "C:\DOCUME~1\DANIEL~1\LOCALS~1\Temp\RSP38.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/TextEditor.pdb" /debug /machine:I386 /out:"Debug/TextEditor.exe" /pdbtype:sept 
+".\Debug\MainFrm.obj"
+".\Debug\PenDialog.obj"
+".\Debug\StdAfx.obj"
+".\Debug\TextEditor.obj"
+".\Debug\TextEditorDoc.obj"
+".\Debug\TextEditorView.obj"
+".\Debug\TextEditor.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\DANIEL~1\LOCALS~1\Temp\RSP38.tmp"
+<h3>Output Window</h3>
+Compiling...
+TextEditor.cpp
+TextEditorDoc.cpp
+TextEditorView.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+TextEditor.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
